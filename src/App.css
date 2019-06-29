@@ -1,0 +1,13 @@
+html,
+body,
+#root,
+.flex,
+iframe {
+  height: 100%;
+  width: 100%;
+}
+
+.flex {
+  display: flex;
+  flex-direction: column;
+}
