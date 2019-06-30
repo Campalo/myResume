@@ -10,11 +10,10 @@ const WhyDev = () => {
       </View>
       <View>
         <Text style={stylesWhy.p}>
-          In 2019, I’ve challenged myself to become a Developer and join a team
-          - after 3 years in Web Marketing! I'm now developing various projects
-          based on React, Node.js and the SCRUM methodology. I am thrilled to
-          have started this trade! Tell me more more about your projects and
-          team.
+          In 2019, I’ve challenged myself to become a Web Developer - after 3
+          years in Web Marketing! I'm now developing various projects based on
+          React and Node.js. I really enjoy the frontend part of it. I'm eager
+          to join a team!
         </Text>
       </View>
     </View>
@@ -29,12 +28,13 @@ const stylesWhy = StyleSheet.create({
     padding: 10,
     width: '100%',
     backgroundColor: '#FFFFFF',
+    marginBottom: 5,
   },
   section: {
     flexDirection: 'row',
   },
   image: {
-    backgroundColor: '#ffee58',
+    backgroundColor: '#F0DB4F',
   },
   h1: {
     marginLeft: 10,
@@ -43,5 +43,6 @@ const stylesWhy = StyleSheet.create({
   p: {
     fontSize: 10,
     paddingTop: 10,
+    lineHeight: 1.3,
   },
 });

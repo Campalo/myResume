@@ -1,7 +1,12 @@
 import React from 'react';
 import {Page, View, Document, StyleSheet} from '@react-pdf/renderer';
+//Resume categories
 import Header from './CVcategories/Header';
 import WhyDev from './CVcategories/WhyDev';
+import Education from './CVcategories/Education';
+import Work from './CVcategories/Work';
+import Projects from './CVcategories/Projects';
+import Enjoy from './CVcategories/Enjoy';
 
 // Create Document Component
 const CamilleCV = () => (
@@ -11,12 +16,12 @@ const CamilleCV = () => (
       <View style={styles.container}>
         <View style={styles.section}>
           <WhyDev />
-          {/* <Education></Education>
-          <Work></Work> */}
+          <Education />
+          <Work />
         </View>
         <View style={styles.section}>
-          <WhyDev />
-          {/* <Projects></Projects> */}
+          <Projects />
+          <Enjoy />
         </View>
       </View>
     </Page>
@@ -36,14 +41,13 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
     },
     justifyContent: 'space-around',
-    paddingLeft: 30,
-    paddingRight: 30,
+    paddingLeft: 20,
+    paddingRight: 20,
     paddingTop: 10,
-    paddingBottom: 10,
   },
   section: {
     flexDirection: 'column',
-    width: '45%',
+    width: '47%',
     '@media max-width: 400': {
       width: '100%',
     },
