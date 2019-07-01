@@ -150,7 +150,7 @@ const stylesProjects = StyleSheet.create({
     padding: 10,
     width: '100%',
     backgroundColor: '#FFFFFF',
-    marginBottom: 19,
+    marginBottom: 12,
   },
   section: {
     flexDirection: 'row',
@@ -184,22 +184,23 @@ const stylesProjects = StyleSheet.create({
   },
   p: {
     fontSize: 10,
-    lineHeight: 1.3,
+    lineHeight: 1.4,
   },
   pLight: {
     fontSize: 10,
-    lineHeight: 1.3,
+    lineHeight: 1.4,
     color: '#696E72',
   },
   link: {
     fontSize: 10,
-    lineHeight: 1.3,
+    lineHeight: 1.4,
     color: '#4db6ac',
   },
   skills: {
     fontSize: 10,
-    lineHeight: 1.3,
+    lineHeight: 1.4,
     backgroundColor: '#F0DB4F',
+    borderRadius: 50,
     marginRight: 10,
     textTransform: 'uppercase',
   },

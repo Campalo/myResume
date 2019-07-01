@@ -11,22 +11,44 @@ const Header = () => {
           a FULLSTACK WEB DEVELOPER, living in BERLIN
         </Text>
 
+        {/* <Text style={stylesHeader.h2}>Feel free to contact me via </Text> */}
+        {/* <Text style={stylesHeader.link}>Linkedin or +33 6 67 45 25 95</Text> */}
+
         <View style={stylesHeader.section1}>
-          <Text style={stylesHeader.h2}>Feel free to contact me via </Text>
-          {/* <Image
-            style={stylesHeader.link}
-            src='https://i.imgur.com/m6bKPT7.png'
-            href='https://www.linkedin.com/in/camille-charteau/?locale=en_US'
-          /> */}
-          <Text style={stylesHeader.link}>Linkedin or +33 6 67 45 25 95</Text>
-        </View>
-        <View style={stylesHeader.section1}>
-          <Image
-            style={stylesHeader.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
-          />
+          <Text style={stylesHeader.h2}>Feel free to contact me: </Text>
+
+          <View style={stylesHeader.section}>
+            <Image
+              style={stylesHeader.imageSM}
+              src='https://i.imgur.com/m6bKPT7.png'
+            />
+            <Text
+              style={stylesHeader.link}
+              href='https://www.linkedin.com/in/camille-charteau/?locale=en_US'>
+              Linkedin
+            </Text>
+          </View>
+
+          <View style={stylesHeader.section}>
+            <Image
+              style={stylesHeader.imageSM}
+              src='https://i.imgur.com/m6bKPT7.png'
+            />
+            <Text style={stylesHeader.link} href='https://github.com/Campalo/'>
+              Github
+            </Text>
+          </View>
+
+          <View style={stylesHeader.section}>
+            <Image
+              style={stylesHeader.imageSM}
+              src='https://i.imgur.com/m6bKPT7.png'
+            />
+            <Text style={stylesHeader.link}>+33 6 67 45 25 95</Text>
+          </View>
         </View>
       </View>
+
       <Image
         style={stylesHeader.imageJS}
         src='https://upload.wikimedia.org/wikipedia/commons/thumb/6/6a/JavaScript-logo.png/600px-JavaScript-logo.png'
@@ -59,6 +81,13 @@ const stylesHeader = StyleSheet.create({
     width: 100,
     borderRadius: 50,
   },
+  imageSM: {
+    marginTop: 5,
+    marginLeft: 5,
+    marginRight: 8,
+    height: 20,
+    width: 20,
+  },
   imageJS: {
     position: 'absolute',
     bottom: 10,
@@ -75,11 +104,13 @@ const stylesHeader = StyleSheet.create({
     fontSize: 12,
     //color: '#696E72',
     marginLeft: 20,
-    marginTop: 5,
+    marginTop: 12,
   },
   link: {
     fontSize: 12,
     color: '#4db6ac',
     marginTop: 5,
+    marginLeft: 5,
+    marginRight: 8,
   },
 });

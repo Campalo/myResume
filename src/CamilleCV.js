@@ -7,6 +7,7 @@ import Education from './CVcategories/Education';
 import Work from './CVcategories/Work';
 import Projects from './CVcategories/Projects';
 import Enjoy from './CVcategories/Enjoy';
+import Interests from './CVcategories/Interests';
 
 // Create Document Component
 const CamilleCV = () => (
@@ -20,8 +21,9 @@ const CamilleCV = () => (
           <Work />
         </View>
         <View style={styles.section}>
-          <Projects />
           <Enjoy />
+          <Projects />
+          <Interests />
         </View>
       </View>
     </Page>

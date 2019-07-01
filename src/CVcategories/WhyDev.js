@@ -11,9 +11,9 @@ const WhyDev = () => {
       <View>
         <Text style={stylesWhy.p}>
           In 2019, I’ve challenged myself to become a Web Developer - after 3
-          years in Web Marketing! I'm now developing various projects based on
-          React and Node.js. I really enjoy the frontend part of it. I'm eager
-          to join a team!
+          years in Web Marketing! Now, I'm developing Web apps using React and
+          Node. I enjoy buidling them components after components, adding
+          dynamic functionalities and feedbacks for the user experience.
         </Text>
       </View>
     </View>
