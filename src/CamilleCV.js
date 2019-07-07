@@ -66,7 +66,7 @@ const styles = StyleSheet.create({
   },
   section: {
     flexDirection: 'column',
-    width: '47%',
+    width: '48%',
     '@media max-width: 400': {
       width: '100%',
     },

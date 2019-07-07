@@ -6,7 +6,7 @@ import './App.css';
 function App() {
   return (
     <React.Fragment>
-      <h1> welcome on my resume made with react.js</h1>
+      {/* <h1> welcome on my resume made with react.js</h1> */}
       <PDFViewer>
         <CamilleCV />
       </PDFViewer>
