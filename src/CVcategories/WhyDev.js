@@ -5,15 +5,18 @@ const WhyDev = () => {
   return (
     <View style={stylesWhy.container}>
       <View style={stylesWhy.section}>
-        <Image style={stylesWhy.image} src='https://i.imgur.com/m6bKPT7.png' />
-        <Text style={stylesWhy.h1}>A career change</Text>
+        <Image
+          style={stylesWhy.image}
+          src='https://img.icons8.com/wired/96/000000/woman-at-computer.png'
+        />
+        <Text style={stylesWhy.h1}>Profile</Text>
       </View>
       <View>
         <Text style={stylesWhy.p}>
-          In 2019, I’ve challenged myself to become a Web Developer - after 3
-          years in Web Marketing! Now, I'm developing Web apps using React and
-          Node. I enjoy buidling them components after components, adding
-          dynamic functionalities and feedbacks for the user experience.
+          In January 2019, I’ve challenged myself to become a Web Developer -
+          after 3 years in Web Marketing! I'm now developing responsive Web apps
+          using React and Node.js. I enjoy building dynamic applications and
+          features that enhance the user experience.
         </Text>
       </View>
     </View>
@@ -26,12 +29,14 @@ const stylesWhy = StyleSheet.create({
   container: {
     flexDirection: 'column',
     padding: 10,
+    paddingBottom: 5,
     width: '100%',
     backgroundColor: '#FFFFFF',
     marginBottom: 5,
   },
   section: {
     flexDirection: 'row',
+    marginBottom: 5,
   },
   image: {
     backgroundColor: '#F0DB4F',
@@ -41,8 +46,8 @@ const stylesWhy = StyleSheet.create({
     fontSize: 16,
   },
   p: {
-    fontSize: 10,
-    paddingTop: 10,
+    fontSize: 9,
+    paddingTop: 5,
     lineHeight: 1.3,
   },
 });

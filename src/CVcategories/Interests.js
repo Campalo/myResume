@@ -5,36 +5,35 @@ const Enjoy = () => {
   return (
     <View style={stylesInterests.container}>
       <View style={stylesInterests.section}>
-        <Image
-          style={stylesInterests.image}
-          src='https://i.imgur.com/m6bKPT7.png'
-        />
-        <Text style={stylesInterests.h1}>Interests</Text>
-      </View>
-
-      <View style={stylesInterests.section1}>
+        <View style={stylesInterests.section}>
+          <Image
+            style={stylesInterests.image}
+            src='https://img.icons8.com/wired/64/000000/two-hearts.png'
+          />
+          <Text style={stylesInterests.h1}>Interests</Text>
+        </View>
         <View style={stylesInterests.section2}>
           <Image
             style={stylesInterests.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
+            src='https://img.icons8.com/color/96/000000/kimono.png'
           />
-          <Text style={stylesInterests.p}>Sport</Text>
+          <Text style={stylesInterests.p}>KungFu</Text>
         </View>
 
         <View style={stylesInterests.section2}>
           <Image
             style={stylesInterests.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
+            src='https://img.icons8.com/color/96/000000/carabiner.png'
           />
-          <Text style={stylesInterests.p}>Meet</Text>
+          <Text style={stylesInterests.p}>Climbing</Text>
         </View>
 
         <View style={stylesInterests.section2}>
           <Image
             style={stylesInterests.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
+            src='https://img.icons8.com/color/96/000000/cookies.png'
           />
-          <Text style={stylesInterests.p}>Cook</Text>
+          <Text style={stylesInterests.p}>Cooking</Text>
         </View>
       </View>
     </View>
@@ -47,6 +46,7 @@ const stylesInterests = StyleSheet.create({
   container: {
     flexDirection: 'column',
     padding: 10,
+    paddingBottom: 5,
     width: '100%',
     backgroundColor: '#FFFFFF',
     marginBottom: 5,
@@ -54,28 +54,28 @@ const stylesInterests = StyleSheet.create({
   section: {
     flexDirection: 'row',
   },
-  section1: {
-    flexDirection: 'row',
-    justifyContent: 'center',
-  },
   section2: {
     flexDirection: 'column',
   },
   image: {
     backgroundColor: '#F0DB4F',
+    height: 18,
+    width: 18,
   },
   imageSM: {
-    marginTop: 10,
     marginBottom: 5,
-    marginRight: 30,
-    height: 25,
-    width: 25,
+    marginLeft: 20,
+    height: 20,
+    width: 20,
   },
   h1: {
     marginLeft: 10,
     fontSize: 16,
   },
   p: {
-    fontSize: 10,
+    marginLeft: 16,
+    fontSize: 9,
+    lineHeight: 1.3,
+    color: '#62757f',
   },
 });

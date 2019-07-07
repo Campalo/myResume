@@ -1,5 +1,12 @@
 import React from 'react';
-import {Page, View, Document, StyleSheet} from '@react-pdf/renderer';
+import {
+  Page,
+  Text,
+  Image,
+  View,
+  Document,
+  StyleSheet,
+} from '@react-pdf/renderer';
 //Resume categories
 import Header from './CVcategories/Header';
 import WhyDev from './CVcategories/WhyDev';
@@ -26,6 +33,16 @@ const CamilleCV = () => (
           <Interests />
         </View>
       </View>
+      <View style={styles.section1}>
+        <Text style={styles.link} href='https://github.com/Campalo/myResume'>
+          Made with{' '}
+          <Image
+            style={styles.imageSM}
+            src='https://img.icons8.com/dusk/64/000000/like.png'
+          />{' '}
+          by Camille Charteau with React.js and React-pdf library.
+        </Text>
+      </View>
     </Page>
   </Document>
 );
@@ -34,7 +51,7 @@ export default CamilleCV;
 
 const styles = StyleSheet.create({
   page: {
-    backgroundColor: '#E4E4E4',
+    backgroundColor: '#cfd8dc',
   },
   container: {
     flex: 1,
@@ -43,8 +60,8 @@ const styles = StyleSheet.create({
       flexDirection: 'column',
     },
     justifyContent: 'space-around',
-    paddingLeft: 20,
-    paddingRight: 20,
+    paddingLeft: 15,
+    paddingRight: 15,
     paddingTop: 10,
   },
   section: {
@@ -56,5 +73,20 @@ const styles = StyleSheet.create({
     '@media orientation: landscape': {
       width: 200,
     },
+  },
+  section1: {
+    flexDirection: 'row',
+    paddingBottom: '10px',
+    paddingLeft: 25,
+    textAlign: 'center',
+  },
+  imageSM: {
+    marginRight: 5,
+    marginLeft: 5,
+  },
+  link: {
+    fontSize: 9,
+    color: '#4453A4',
+    textDecoration: 'none',
   },
 });

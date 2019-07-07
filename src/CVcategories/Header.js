@@ -6,37 +6,59 @@ const Header = () => {
     <View style={stylesHeader.container}>
       <Image style={stylesHeader.image} src='https://i.imgur.com/OvRHc2K.jpg' />
       <View style={stylesHeader.section}>
-        <Text style={stylesHeader.h1}>Hi, I'm CAMILLE CHARTEAU</Text>
+        <Text style={stylesHeader.h1}>Hi, I'm Camille Charteau</Text>
         <Text style={stylesHeader.h1}>
-          a FULLSTACK WEB DEVELOPER, living in BERLIN
+          a Fullstack Web Developer, living in Berlin
         </Text>
 
         <View style={stylesHeader.section1}>
-          {/* <Text style={stylesHeader.h2}>Feel free to contact me: </Text> */}
-
           <Image
             style={stylesHeader.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
+            src='https://img.icons8.com/ios-glyphs/104/000000/linkedin.png'
           />
           <Text
             style={stylesHeader.link}
             href='https://www.linkedin.com/in/camille-charteau/?locale=en_US'>
-            Linkedin
+            camille-charteau
           </Text>
 
           <Image
             style={stylesHeader.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
+            src='https://img.icons8.com/windows/96/000000/github.png'
           />
           <Text style={stylesHeader.link} href='https://github.com/Campalo/'>
-            Github
+            Campalo
           </Text>
 
           <Image
             style={stylesHeader.imageSM}
-            src='https://i.imgur.com/m6bKPT7.png'
+            src='https://img.icons8.com/office/96/000000/spain.png'
+          />
+          <Image
+            style={stylesHeader.imageSM}
+            src='https://img.icons8.com/office/96/000000/great-britain.png'
+          />
+          <Text style={stylesHeader.link}>Fluent</Text>
+
+          <Image
+            style={stylesHeader.imageSM}
+            src='https://img.icons8.com/office/96/000000/france.png'
+          />
+          <Text style={stylesHeader.link}>Native</Text>
+        </View>
+
+        <View style={stylesHeader.section1}>
+          <Image
+            style={stylesHeader.imageSM}
+            src='https://img.icons8.com/ios/100/000000/phonelink-ring-filled.png'
           />
           <Text style={stylesHeader.link}>+33 6 67 45 25 95</Text>
+
+          <Image
+            style={stylesHeader.imageSM}
+            src='https://img.icons8.com/material-outlined/100/000000/send.png'
+          />
+          <Text style={stylesHeader.link}>camille.charteau@hotmail.fr</Text>
         </View>
       </View>
 
@@ -64,20 +86,24 @@ const stylesHeader = StyleSheet.create({
   },
   section: {
     flexDirection: 'column',
+    paddingLeft: 20,
   },
   section1: {
     flexDirection: 'row',
+  },
+  h1: {
+    lineHeight: 1.5,
+    fontSize: 16,
   },
   image: {
     width: 100,
     borderRadius: 50,
   },
   imageSM: {
-    marginTop: 5,
-    marginLeft: 20,
-    marginRight: 5,
-    height: 20,
-    width: 20,
+    height: 15,
+    width: 15,
+    marginRight: 3,
+    marginTop: 7,
   },
   imageJS: {
     position: 'absolute',
@@ -85,21 +111,11 @@ const stylesHeader = StyleSheet.create({
     right: 20,
     width: 50,
   },
-  h1: {
-    paddingLeft: 20,
-    paddingTop: 5,
-    lineHeight: 1.5,
-    fontSize: 16,
-  },
-  h2: {
-    fontSize: 12,
-    //color: '#696E72',
-    marginLeft: 20,
-    marginTop: 12,
-  },
   link: {
-    fontSize: 12,
-    color: '#4db6ac',
+    fontSize: 10,
+    color: '#4453A4',
+    marginRight: 12,
     marginTop: 10,
+    textDecoration: 'none',
   },
 });

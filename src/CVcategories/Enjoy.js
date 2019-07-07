@@ -15,39 +15,39 @@ const Enjoy = () => {
       <View style={stylesEnjoy.section}>
         <Image
           style={stylesEnjoy.imageSM}
-          src='https://i.imgur.com/m6bKPT7.png'
+          // src='https://img.icons8.com/wired/96/000000/witch-.png'
+          src='https://img.icons8.com/dusk/96/000000/witch.png'
         />
         <Text style={stylesEnjoy.p}>
-          Become a components wizard! (css, functionalities)
+          Mastering components creation : design and functionalities
         </Text>
       </View>
 
       <View style={stylesEnjoy.section}>
         <Image
           style={stylesEnjoy.imageSM}
-          src='https://i.imgur.com/m6bKPT7.png'
+          // src='https://img.icons8.com/wired/96/000000/r2-d2.png'
+          src='https://img.icons8.com/dusk/96/000000/r2-d2.png'
         />
         <Text style={stylesEnjoy.p}>
-          Expand my horizon by working in a diverse team
+          Discovering new technologies: IOT, Mobile App,...
         </Text>
       </View>
 
       <View style={stylesEnjoy.section}>
         <Image
           style={stylesEnjoy.imageSM}
-          src='https://i.imgur.com/m6bKPT7.png'
+          src='https://img.icons8.com/dusk/96/000000/diversity.png'
         />
-        <Text style={stylesEnjoy.p}>Work remotely from time to time</Text>
+        <Text style={stylesEnjoy.p}>Working in diverse teams</Text>
       </View>
 
       <View style={stylesEnjoy.section}>
         <Image
           style={stylesEnjoy.imageSM}
-          src='https://i.imgur.com/m6bKPT7.png'
+          src='https://img.icons8.com/dusk/96/000000/europe.png'
         />
-        <Text style={stylesEnjoy.p}>
-          Discover and try new technologies: IOT, Flutter,...
-        </Text>
+        <Text style={stylesEnjoy.p}>Working remotely from time to time</Text>
       </View>
     </View>
   );
@@ -59,9 +59,10 @@ const stylesEnjoy = StyleSheet.create({
   container: {
     flexDirection: 'column',
     padding: 10,
+    paddingBottom: 5,
     width: '100%',
     backgroundColor: '#FFFFFF',
-    marginBottom: 12,
+    marginBottom: 5,
   },
   section: {
     flexDirection: 'row',
@@ -71,14 +72,16 @@ const stylesEnjoy = StyleSheet.create({
   },
   imageSM: {
     marginRight: 5,
-    paddingTop: 10,
+    marginTop: 5,
+    height: 12,
+    width: 12,
   },
   h1: {
     marginLeft: 10,
     fontSize: 16,
   },
   p: {
-    fontSize: 10,
-    paddingTop: 10,
+    fontSize: 9,
+    marginTop: 7,
   },
 });
