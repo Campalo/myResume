@@ -64,7 +64,7 @@ const stylesInterests = StyleSheet.create({
   },
   imageSM: {
     marginBottom: 5,
-    marginLeft: 20,
+    marginLeft: 15,
     height: 20,
     width: 20,
   },
@@ -73,7 +73,7 @@ const stylesInterests = StyleSheet.create({
     fontSize: 16,
   },
   p: {
-    marginLeft: 16,
+    marginLeft: 10,
     fontSize: 9,
     lineHeight: 1.3,
     color: '#62757f',
