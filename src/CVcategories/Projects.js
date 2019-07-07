@@ -44,7 +44,7 @@ const Work = () => {
 
       {/* Certificate Generator *******************************************************/}
       <View style={stylesProjects.section2}>
-        <Text style={stylesProjects.pLight}>06.2019 - now, Berlin</Text>
+        <Text style={stylesProjects.pLight}>06-07.2019, Berlin</Text>
         <Text style={stylesProjects.h3}>Web App Certificate Generator</Text>
         <Text style={stylesProjects.h2}>Edera - Online course company</Text>
         <Text
