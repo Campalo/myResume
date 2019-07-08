@@ -16,9 +16,11 @@ const Header = () => {
             style={stylesHeader.imageSM}
             src='https://img.icons8.com/ios-glyphs/104/000000/linkedin.png'
           />
+
           <Text
             style={stylesHeader.link}
-            href='https://www.linkedin.com/in/camille-charteau/?locale=en_US'>
+            href='https://www.linkedin.com/in/camille-charteau/?locale=en_US'
+            target='_blank'>
             camille-charteau
           </Text>
 
@@ -26,7 +28,10 @@ const Header = () => {
             style={stylesHeader.imageSM}
             src='https://img.icons8.com/windows/96/000000/github.png'
           />
-          <Text style={stylesHeader.link} href='https://github.com/Campalo/'>
+          <Text
+            style={stylesHeader.link}
+            href='https://github.com/Campalo/'
+            target='_blank'>
             Campalo
           </Text>
 
