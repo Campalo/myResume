@@ -40,7 +40,8 @@ const CamilleCV = () => (
             style={styles.imageSM}
             src='https://img.icons8.com/dusk/64/000000/like.png'
           />{' '}
-          by Camille Charteau with React.js and React-pdf library.
+          by Camille Charteau with React.js and React-pdf library - click to
+          view my code.
         </Text>
       </View>
     </Page>
