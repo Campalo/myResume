@@ -76,7 +76,7 @@ const styles = StyleSheet.create({
   },
   section1: {
     flexDirection: 'row',
-    paddingBottom: '10px',
+    paddingBottom: 20,
     paddingLeft: 25,
     textAlign: 'center',
   },

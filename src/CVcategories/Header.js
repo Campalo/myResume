@@ -37,7 +37,7 @@ const Header = () => {
 
           <Image
             style={stylesHeader.imageSM}
-            src='https://img.icons8.com/office/96/000000/spain.png'
+            src='https://img.icons8.com/office/96/000000/spain-2.png'
           />
           <Image
             style={stylesHeader.imageSM}
@@ -57,7 +57,7 @@ const Header = () => {
             style={stylesHeader.imageSM}
             src='https://img.icons8.com/ios/100/000000/phonelink-ring-filled.png'
           />
-          <Text style={stylesHeader.link}>+33 6 67 45 25 95</Text>
+          <Text style={stylesHeader.link}>+49(0)1 59 06 30 43 11</Text>
 
           <Image
             style={stylesHeader.imageSM}
@@ -114,7 +114,7 @@ const stylesHeader = StyleSheet.create({
     position: 'absolute',
     bottom: 10,
     right: 20,
-    width: 50,
+    width: 60,
   },
   link: {
     fontSize: 10,

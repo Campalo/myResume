@@ -44,7 +44,7 @@ const Work = () => {
 
       {/* Certificate Generator *******************************************************/}
       <View style={stylesProjects.section2}>
-        <Text style={stylesProjects.pLight}>06-07.2019, Berlin</Text>
+        <Text style={stylesProjects.pLight}>06 - 07.2019, Berlin</Text>
         <Text style={stylesProjects.h3}>Web App Certificate Generator</Text>
         <Text style={stylesProjects.h2}>Edera - Online course company</Text>
         <Text
@@ -87,7 +87,7 @@ const Work = () => {
 
         <View style={stylesProjects.section3}>
           <Text style={stylesProjects.p}>
-            <Text style={stylesProjects.skills}>Library - React-pdf: </Text>
+            <Text style={stylesProjects.skills}>React-pdf: </Text>
             Create the certificate component as a PDF file on the browser
           </Text>
         </View>
@@ -95,7 +95,7 @@ const Work = () => {
         <View style={stylesProjects.section3}>
           <Text style={stylesProjects.p}>
             <Text style={stylesProjects.skills}>UI - Adobe XD: </Text>
-            Create the framework of the webApp
+            Create the wireframe of the Web App
           </Text>
         </View>
       </View>
@@ -132,22 +132,22 @@ const Work = () => {
         <View style={stylesProjects.section3}>
           <Text style={stylesProjects.p}>
             <Text style={stylesProjects.skills}>Backend - Firebase: </Text>
-            Store the photo to FireStorage, save the photo details to FireStore,
+            Store the photo to FireStorage, save the photo details to FireStor
             to then fetch it in the vote component
           </Text>
         </View>
 
         <View style={stylesProjects.section3}>
           <Text style={stylesProjects.p}>
-            <Text style={stylesProjects.skills}> Library - Capacitor: </Text>
-            Get access to camera and geolocalisation of the user
+            <Text style={stylesProjects.skills}> Capacitor: </Text>
+            Get access to camera and geolocation of the user
           </Text>
         </View>
       </View>
 
       {/* Quiz Fox *******************************************************/}
       <View style={stylesProjects.section2}>
-        <Text style={stylesProjects.pLight}>04-05.2019, Berlin</Text>
+        <Text style={stylesProjects.pLight}>04 - 05.2019, Berlin</Text>
         <Text style={stylesProjects.h3}>Trivial Pursuit-like Web app</Text>
         <Text style={stylesProjects.h2}>Wild Code School projects</Text>
         <Text
@@ -159,7 +159,7 @@ const Work = () => {
         <View style={stylesProjects.section3}>
           <Text style={stylesProjects.p}>
             <Text style={stylesProjects.skills}>TeamWork - Git, Scrum: </Text>
-            Project team of 3, then 2 developers
+            Project team of 2 developers
           </Text>
         </View>
 

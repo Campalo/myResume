@@ -32,8 +32,8 @@ const Work = () => {
         <View style={stylesWork.section3}>
           <Text style={stylesWork.p}>
             <Text style={stylesWork.skills}> Analytics, Reporting, UX: </Text>
-            Weekly improvement of the game with the developers team, based on
-            players'feedback and analytic tools (Unity, Google)
+            Weekly improvement of the game with the developement team, based on
+            players' feedback and analytic tools (Unity, Google)
           </Text>
         </View>
 
@@ -47,7 +47,8 @@ const Work = () => {
         <View style={stylesWork.section3}>
           <Text style={stylesWork.p}>
             <Text style={stylesWork.skills}>Blockchain: </Text>
-            Give 2 Blockchain & Video Games talks during worldwide B2B events
+            Gave 2 Blockchain & Video Games talks during worldwide business
+            events
           </Text>
         </View>
       </View>
@@ -61,7 +62,9 @@ const Work = () => {
         <Text style={stylesWork.h2}>
           Piper - Learn electronics while playing
         </Text>
-        <Text style={stylesWork.h2}>Bricodeurs - Robotics for children</Text>
+        <Text style={stylesWork.h2}>
+          Bricodeurs - Robotics workshops for children
+        </Text>
       </View>
 
       {/* TEFAL */}
@@ -75,7 +78,8 @@ const Work = () => {
         <View style={stylesWork.section3}>
           <Text style={stylesWork.p}>
             <Text style={stylesWork.skills}>Product management: </Text>
-            Take part in 8 new product developments and launchs
+            Participated in 8 new product developments and launches (mandolin,
+            knives, baking molds, ...)
           </Text>
         </View>
 
@@ -89,8 +93,8 @@ const Work = () => {
 
         <View style={stylesWork.section3}>
           <Text style={stylesWork.p}>
-            <Text style={stylesWork.skills}>User focus </Text>
-            Organize a group consumer survey with 15 users to test new products
+            <Text style={stylesWork.skills}>User focus: </Text>
+            Lead a survey of 15 users for testing new products
           </Text>
         </View>
       </View>

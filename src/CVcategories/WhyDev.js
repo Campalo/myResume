@@ -14,7 +14,7 @@ const WhyDev = () => {
       <View>
         <Text style={stylesWhy.p}>
           In January 2019, I’ve challenged myself to become a Web Developer -
-          after 3 years in Web Marketing! I'm now developing responsive Web apps
+          after 3 years in Web Marketing. I'm now developing responsive Web apps
           using React and Node.js. I enjoy building dynamic applications and
           features that enhance the user experience. I'm eager to join a team in
           September!
